@@ -15,7 +15,8 @@ public final class Main extends JavaPlugin {
         this.getCommand("heal").setExecutor(new LifeCMD());
         this.getCommand("feed").setExecutor(new LifeCMD());
         this.getCommand("fly").setExecutor(new AdminCMD());
-        this.getCommand("gmod").setExecutor(new AdminCMD());
+        this.getCommand("god").setExecutor(new AdminCMD());
+        this.getCommand("vanish").setExecutor(new AdminCMD());
     }
 
     @Override
