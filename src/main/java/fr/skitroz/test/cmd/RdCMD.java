@@ -13,7 +13,7 @@ public class RdCMD implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
 
-            for (int i = 3; i > -1; i--) {
+            for (int i = 3; i >= 0; i--) {
                 final int secondsLeft = i;
                 Main.INSTANCE.getServer().getScheduler().runTaskLater(Main.INSTANCE, () -> {
                     if (player.isOnline()) {

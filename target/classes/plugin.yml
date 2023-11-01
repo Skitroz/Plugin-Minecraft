@@ -3,5 +3,8 @@ version: 1.0
 main: fr.skitroz.test.Main
 api-version: '1.20'
 commands:
-  test:
   rd:
+  heal:
+  feed:
+  fly:
+  gmod:
