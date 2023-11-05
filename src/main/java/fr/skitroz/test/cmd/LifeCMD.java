@@ -32,6 +32,7 @@ public class LifeCMD implements CommandExecutor {
                         return true;
                     } else {
                         player.sendMessage(ChatManager.MessageType.ERROR.getMessage() + "Le joueur est introuvable.");
+                        return true;
                     }
                 }
             }
@@ -54,6 +55,7 @@ public class LifeCMD implements CommandExecutor {
                         return true;
                     } else {
                         player.sendMessage(ChatManager.MessageType.ERROR.getMessage() + "Le joueur est introuvable.");
+                        return true;
                     }
                 }
             }
